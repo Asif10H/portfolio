@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  font-family: "Open Sans", sans-serif;
+}
 /* navegation  */
 ul {
   list-style: none;
@@ -15,10 +17,12 @@ li {
 }
 li a {
   display: block;
-  color: #080e33;
+  color: #132835;
   text-align: center;
   padding: 20px;
   font-size: 20px;
+  text-decoration: none;
+  font-weight: 1000;
 }
 
 h2 {
@@ -37,14 +41,14 @@ section {
   height: 200px;
 }
 /* name and picture */
-#id {
+/*#id {
   margin-top: 30px;
-}
+}*/
 .half-width {
   width: 40%;
   float: left;
   margin-left: 5%;
-  paint-left: 2%;
+  padding-left: 70px;
 }
 .half-width img {
   width: 100%;
@@ -52,7 +56,52 @@ section {
 .link-button {
   text-decoration: none;
   background-image: linear-gradient(#1352a5, #1352a5);
-  padding: 10px 30px;
   border-radius: 10px;
-  color: white;
+  padding: 10px 30px;
+  margin-top: 150px;
+  color: wheat;
+  font-weight: 700;
+}
+/*about*/
+.about-sec {
+  height: 650px;
+  text-align: center;
+}
+/*skills*/
+.skills-sec {
+  margin-top: 280px;
+  text-align: center;
+}
+.skills-sec p {
+  margin-top: 30px;
+  margin-left: 220px;
+  margin-bottom: 30px;
+  margin-right: 150px;
+  display: block;
+}
+.parent {
+  text-align: center;
+  display: block;
+}
+.child {
+  display: inline-block;
+  border: 10px solid #1352a5;
+  border-radius: 10px;
+  margin: 10px;
+  color: wheat;
+  background-image: linear-gradient(#1352a5, #1352a5);
+}
+
+/*footer*/
+.foo-ter {
+  color: wheat;
+  text-align: center;
+  background-color: #0e2431;
+}
+.foo-ter h1 {
+  color: wheat;
+}
+.foo-ter p {
+  font-size: 16px;
+  font-weight: bold;
 }
