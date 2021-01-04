@@ -48,7 +48,10 @@ section {
   width: 40%;
   float: left;
   margin-left: 5%;
+<<<<<<< HEAD
   padding-left: 70px;
+=======
+>>>>>>> 632665b9e478f0c7d701187d2cce6cb732ca1556
 }
 .half-width img {
   width: 100%;
