@@ -1,8 +1,7 @@
-/* .asif{
-  border: 1px solid tomato;
-} */
-.asif img{
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
+.img-res{
+  border: 2px solid tomato;
+}
+.img-res img{
+   max-width: 100%;
+   height: auto;
 }
