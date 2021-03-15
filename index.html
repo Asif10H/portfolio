@@ -1,62 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <title>Asif Website</title>
-  </head>
-  <body>
-    <!-- navegation  -->
-    <section class="navBar">
-      <div class="half-width">
-        <h2 id="h-name">Habibullah Md.Asif</h2>
-      </div>
+<head>
+  <meta charset="UTF-8" />
 
-      <div class="half-width">
-        <ul>
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Skills">Skills</a></li>
-          <li><a href="#Portfolio">Portfolio</a></li>
-          <li><a href="#Contact">Contact</a></li>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <title>Asif Website</title>
+</head>
+
+<body>
+  <!-- navigation  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light top-navbar mb-5">
+    <div class="container-fluid top-navbar">
+      <a class="navbar-brand" href="#">Habibullah Md.Asif</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
         </ul>
       </div>
-    </section>
-
-    <!-- name and picture-->
-    <section class="name-pic">
-      <div class="half-width" class="half-left">
-        <h1 id="hi">Hi,</h1>
-        <h1>I'am <span>Asif</span></h1>
-        <h1>Web Designer</h1>
-        <br />
-        <a
-          class="link-button"
-          target="_blank"
-          href="https://www.linkedin.com/in/habibullah-asif/"
-          >Contact</a
-        >
+    </div>
+  </nav>
+  <!-- name and picture-->
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 asif">
+        <div class="mx-auto mt-5" style="width: 300px;">
+          <h1>Hi,</h1>
+          <h1>I'am Asif</h1>
+          <h1>Web Designer</h1>
+          <button class=" btn btn-primary" target="_blank" href="https://www.linkedin.com/in/habibullah-asif/">
+            Contact</button>
+        </div>
       </div>
-
-      <div class="half-width">
-        <img src="images/profile.jpg" alt="" />
+      <div class="col-lg-6 col-md-6 col-sm-12 asif">
+        <div class="">
+          <img class="img-fluid" src="images/profile.jpg" alt="" />
+        </div>
       </div>
-    </section>
-
-    <!-- about and picture-->
-    <section class="about-sec">
-      <div class="half-width">
-        <img src="images/profile.jpg" alt="" />
+    </div>
+  </div>
+  <!-- about and picture-->
+  <div class="container  mb-5">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 asif">
+        <div class="">
+          <img src="images/profile.jpg" alt="" />
+        </div>
       </div>
-      <div class="half-width">
-        <h1 class="same-color" id="About">About</h1>
+      <div class="col-lg-6 col-md-6 col-sm-12 asif ps-5 pt-5">
+        <h1 id="About">About</h1>
         <h2>I'am Habibullah Md.Asif</h2>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -67,84 +82,119 @@
           remaining essentially unchanged. It was popularised in
         </p>
       </div>
-    </section>
-
-    <!--skills and picture -->
-    <section>
-      <div class="skills-sec">
-        <h1 class="same-color" id="Skills">Skills</h1>
-        <h2>Professional Skills</h2>
+    </div>
+  </div>
+  <!--skill-->
+  <div class="container  mb-5">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 asif">
+        <div class="">
+          <h1 id="Skills">Skills</h1>
+          <h2>Professional Skills</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text ever
+            scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 asif ps-5 pt-5">
+        <h1 id="About">About</h1>
+        <h2>I'am Habibullah Md.Asif</h2>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make a type specimen book. It has survived not only
           five centuries, but also the leap into electronic typesetting,
           remaining essentially unchanged. It was popularised in
         </p>
       </div>
-      <div class="parent">
-        <div class="child">
-          <p>HTML</p>
-        </div>
-        <div class="child">
-          <p>CSS</p>
-        </div>
-        <div class="child">
-          <p>JAVASCRIPT</p>
-        </div>
-        <div class="child">
-          <p>PYTHON</p>
-        </div>
-        <div class="child">
-          <p>Git</p>
+    </div>
+  </div>
+  <!-- portfolio-->
+  <div class="container  mb-5">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 asif">
+        <div class="">
+          <h1 id="Skills">Skills</h1>
+          <h2>Professional Skills</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text ever
+            scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in
+          </p>
         </div>
       </div>
-    </section>
+      <div class="col-lg-6 col-md-6 col-sm-12 asif ps-5 pt-5">
+        <h1 id="About">About</h1>
+        <h2>I'am Habibullah Md.Asif</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- contact -->
+  <div class="container  mb-5">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 asif">
+        <div class="">
+          <h1 id="Skills">Skills</h1>
+          <h2>Professional Skills</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text ever
+            scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 asif ps-5 pt-5">
+        <h1 id="About">About</h1>
+        <h2>I'am Habibullah Md.Asif</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 asif ps-5 pt-5 text-center">
+          <div>
+            <h1>Habibullah Md.Asif</h1>
+            <button class="btn btn-primary" target="_blank" href="https://facebook.com/Asif10H">Facebook</button>
+            <button class="btn btn-primary" target="_blank" href="https://github.com/Asif10H">GitHub</button>
+            <button class="btn btn-primary" target="_blank" href="https://www.stopstalk.com/user/profile/Asif10h">
+              StopStalk</button>
+            <p>&copy copyright all right reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <!-- portfolio-->
-    <section></section>
-    <!-- contact -->
-    <section class="contact-sec">
-      <div class="contact-sec">
-        <h1 class="same-color" id="Contact">Contact</h1>
-        <input type="text" placeholder="Name" class="name-input" />
-        <br />
-        <input type="mail" placeholder="Email" class="mail-input" />
-        <br />
-        <textarea name="text" class="txt-input" cols="20" rows="10"></textarea>
-      </div>
-    </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+</body>
 
-    <!-- footer -->
-    <section class="foo-ter">
-      <div>
-        <h1>Habibullah Md.Asif</h1>
-        <div class="parent-footer">
-          <div class="child-footer">
-            <p>
-              <a target="_blank" href="https://facebook.com/Asif10H"
-                >Facebook</a
-              >
-            </p>
-          </div>
-          <div class="child-footer">
-            <p>
-              <a target="_blank" href="https://github.com/Asif10H">GitHub</a>
-            </p>
-          </div>
-          <div class="child-footer">
-            <p>
-              <a
-                target="_blank"
-                href="https://www.stopstalk.com/user/profile/Asif10h"
-              >
-                StopStalk</a
-              >
-            </p>
-          </div>
-        </div>
-        <p>&copy copyright all right reserved</p>
-      </div>
-    </section>
-  </body>
 </html>
